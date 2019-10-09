@@ -7,6 +7,11 @@
  */
 
 import React from 'react';
+
+import {View, Text} from 'react-native';
+import About from './comps/About';
+import Start from './comps/Start';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -15,15 +20,15 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-import Start from './comps/Start';
+
 
 function App(){
     return(
     <View>
       <Start />
+      <About/>
     </View>
     )
 }
-
 
 export default App;
