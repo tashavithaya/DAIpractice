@@ -15,11 +15,14 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Start from './comps/Start';
 
 function App(){
-  <View>
-    <Start />
-  </View>
+    return(
+    <View>
+      <Start />
+    </View>
+    )
 }
 
 
