@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/styles.js';
+import styles from '../styles/styles';
 import {View, Text, Image} from 'react-native';
 
 function Contacts(){
